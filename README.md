@@ -19,7 +19,7 @@ O resultado da criptografia ou descriptografia é apresentado na tela.
 # Como Utilizar?
 Para utilizar basta seguir os seguintes passos:
 
-Acesse a página [clicando aqui](https://github.com/VitorAzevedoo/DecodificadorTexto.git/).
+Acesse a página [clicando aqui](https://github.com/VitorAzevedoo/DecodificadorTexto).
 Insira o texto que deseja criptografar ou descriptografar no campo correspondente.
 Selecione a opção de criptografia ou descriptografia.
 Clique no botão "Criptografar" ou "Descriptografar", dependendo da opção selecionada.
