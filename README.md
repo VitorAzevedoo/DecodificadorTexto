@@ -27,7 +27,5 @@ O resultado da operação será exibido no lado direito da tela.
 Se desejar copiar o resultado para a área de transferência, clique no botão "Copiar".
 
 # Tecnologias Utilizadas
-HTML
-CSS
-JavaScript
+HTML | CSS | JavaScript
 
