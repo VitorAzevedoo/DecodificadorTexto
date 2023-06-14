@@ -12,7 +12,7 @@ No desafio proposto, a criptografia deveria seguir as seguintes regras:
 - A letra "o" é convertida para "ober"
 - A letra "u" é convertida para "ufat"
 
-O programa consegue converter um texto escrito pelo usuario, em uma mensagem criptografada, e também retornar o mesmo texto criptografad; em sua versão original.
+O programa consegue converter um texto escrito pelo usuario, em uma mensagem criptografada, e também retornar o mesmo texto criptografado; em sua versão original.
 
 O resultado da criptografia ou descriptografia é apresentado na tela.
 
