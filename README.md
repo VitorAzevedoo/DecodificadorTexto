@@ -12,17 +12,19 @@ No desafio proposto, a criptografia deveria seguir as seguintes regras:
 - A letra "o" é convertida para "ober"
 - A letra "u" é convertida para "ufat"
 
-O programa consegue converter um texto escrito pelo usuario, em uma mensagem criptografada, e também retornar o mesmo texto criptografado; em sua versão original.
+O programa consegue converter um texto escrito pelo usuario em uma mensagem criptografada, também retornar o mesmo texto criptografado; em sua versão original.
 
 O resultado da criptografia ou descriptografia é apresentado na tela.
+
+Observação: O desafio não exigia uma construção responsiva, no entanto achei interessante deixar responsivo.
 
 # Como Utilizar?
 Para utilizar basta seguir os seguintes passos:
 
 Acesse a página [clicando aqui](https://vitorazevedoo.github.io/DecodificadorTexto/)
-Insira o texto que deseja criptografar ou descriptografar no campo "Digite seu texto aqui..."
-Selecione a opção de criptografia ou descriptografia e clique no botão "Criptografar" ou "Descriptografar"
-O resultado será apresentado no mesmo campo.
+- Insira o texto que deseja criptografar ou descriptografar no campo "Digite seu texto aqui..."
+- Selecione a opção de criptografia ou descriptografia e clique no botão "Criptografar" ou "Descriptografar"
+- O resultado será apresentado no mesmo campo.
 
 # Tecnologias Utilizadas
 HTML | CSS | JavaScript
