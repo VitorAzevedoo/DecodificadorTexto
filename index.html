@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&family=Montserrat:wght@300&family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Projeto - Encriptador</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <img class="logo-projeto" src="code.png" alt="logo do projeto">
+            <h1 class="nome-vitor">Projeto - Criptografia de Texto</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="encriptar">
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10"
+                placeholder="Digite seu texto aqui..."></textarea>
+
+            <div class="informacao">
+                <p>Somente letras minúsculas e sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="btn-encriptar" type="button" onclick="encriptar()">Encriptar</button>
+                <button class="btn-desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="encriptado">
+            <img src="boneco.png" alt="imagem boneco" id="boneco"/>
+            <div class="mensagem-encriptado" id="mensagem-encriptado">
+                <h2 id="mensagemtitulo">Nenhuma mensagem foi encontrada!</h2>
+                <p id="mensagem">
+                    Digite o texto que deseja encriptar ou desencriptar
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

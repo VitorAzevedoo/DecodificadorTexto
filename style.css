@@ -1,0 +1,294 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo Geral */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background: #26263d;
+    overflow-x: hidden;
+    font-weight: 500;
+}
+
+.header {
+    padding: 28px;
+    color: #fff;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-container img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.nome-vitor {
+    font-size: 23px;
+    font-family: 'Montserrat';
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px #080808;
+}
+
+.nome-vitor:hover {
+    color: rgb(121, 239, 178);
+}
+
+.container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to bottom, #26263d, #46466d);
+}
+
+.texto {
+    position: absolute;
+    width: 42%;
+    height: 45%;
+    left: 12%;
+    top: 8%;
+    border: none;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 150%;
+    background: none;
+    color:#fff;
+    resize: none;
+}
+
+.texto::placeholder {
+    color: #fff;
+    font-family: 'Montserrat';
+}
+
+.texto:focus,
+.texto:active {
+    border: none;
+    outline: none;
+}
+
+.informacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    width: 80%;
+    left: 13%;
+    top: 60%;
+    font-family: 'Montserrat';
+}
+
+.informacao p {
+    font-size: 13px;
+    line-height: 150%;
+    color: #eeeeee;
+    opacity: 0.8;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1% 0;
+    position: absolute;
+    width: 70%;
+    left: 12%;
+    top: 70%;
+}
+
+.btn-encriptar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Montserrat";
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background: #37275c;
+    border: 1px solid #37275c;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    color: #1e0a32;
+    text-align: center;
+    color: #fff;
+    box-shadow: 5px 5px 5px #030e1c;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-desencriptar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: "Montserrat";
+    padding: 2%;
+    gap: 8px;
+    width: 25%;
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0a3871;
+    margin-left: 2em;
+    box-shadow: 5px 5px 5px #030e1c;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s;
+}
+
+.btn-encriptar:hover {
+    transform: scale(1.1);
+}
+
+.btn-desencriptar:hover {
+    transform: scale(1.1);
+}
+
+.encriptado {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 30%;
+    height: 65%;
+    left: 65%;
+    top: 10%;
+    background: linear-gradient(#fff, #f3f5ff);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.mensagem-encriptado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    text-align: center;
+    gap: 5px;
+    opacity: 0.6;
+}
+
+.mensagem-encriptado h2 { 
+    font-size: 18x;
+    line-height: 120%;
+    text-align: center;
+    color: #343a40;
+    font-family: 'Montserrat';
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.mensagem-encriptado p {
+    width: 80%;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    font-family: 'Montserrat';
+    font-weight: 600;
+}
+
+.encriptado img {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    top: 10%;
+}
+
+/* Responsive design */
+@media (max-width: 57.5em) {
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nome-vitor{
+        font-size: 20px;
+    }
+
+    .encriptar {
+        width: 100%;
+    }
+
+    .texto {
+        width: 80%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+
+    .informacao {
+        width: 80%;
+        left: 10%;
+        top: 60%;
+    }
+
+    .informacao p {
+        font-size: 12px;
+    }
+
+    .botoes {
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 48%;
+        border-radius: 16px;
+    }
+
+    .encriptado {
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;
+    }
+
+    .mensagem-encriptado {
+        width: 100%;
+        top: -5px;
+    }
+
+    .mensagem-encriptado p {
+        position: relative;
+        top: -25px;
+        font-size: 12px;
+    }
+
+    .encriptado img {
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}
