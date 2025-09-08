@@ -1,6 +1,6 @@
 # Decodificador de Texto 
 
-Neste projeto é possivel realizar a criptografia e descriptografia de textos. O desafio foi proposto pelo programa ONE (Oracle Next Education).
+Neste projeto é possivel realizar a criptografia e descriptografia de textos.
 
 # Descrição do desafio:
 
